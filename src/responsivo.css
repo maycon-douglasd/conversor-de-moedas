@@ -1,0 +1,39 @@
+@media  screen and (max-width: 900px) {
+    body {
+        display: block;
+        margin: 10px auto;
+        height: auto;
+        width: auto;        
+    }
+
+    .logo {
+        display: block;
+        width: 290px;
+        height: 200px;
+        margin: 15px auto;
+    }
+
+    main {
+        width: 400px;
+        padding: auto;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    body {
+        display: block;
+        margin: 15px auto;
+    }
+
+    .logo {
+        display: block;
+        width: 290px;
+        height: 200px;
+        margin: 15px auto;
+    }
+
+    main {
+        width: 90%;
+        padding: auto;
+    }
+}
